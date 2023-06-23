@@ -1,5 +1,6 @@
 {
     "diffEditor.wordWrap": "on",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "liveServer.settings.port": 5502
 }

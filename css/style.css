@@ -1,18 +1,21 @@
 @font-face {
-    font-family: "MiddleSaxonyText";
-        src: url(../assets/fonts/MiddleSaxonyText.ttf);
+    font-family: "Hamster";
+        src: url(../assets/fonts/Hamster.otf);
 }
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 250, 255);
 }
 body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    font-family: "MiddleSaxonyText";
+    /*font-family: "MiddleSaxonyText"; Fonte para o jogo, será alterada*/
+    font-family: "Hamster";
 }
 h1{
+    text-align: center;
     font-size: 40px;
     line-height: 60px;
 }
