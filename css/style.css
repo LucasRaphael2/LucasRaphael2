@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "MiddleSaxonyText";
+        src: url(../assets/fonts/MiddleSaxonyText.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +10,11 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    font-family: "MiddleSaxonyText";
 }
 h1{
     font-size: 40px;
     line-height: 60px;
-    font-style: italic;
 }
 h1 span{
     display: block;
