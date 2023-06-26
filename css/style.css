@@ -11,14 +11,22 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    /*font-family: "MiddleSaxonyText"; Fonte para o jogo, será alterada*/
+    /*font-family: "MiddleSaxonyText"; Fonte para o jogo medieval ou blocado com tematica antiga, será alterada*/
     font-family: "Hamster";
 }
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 h1{
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
     font-size: 40px;
-    line-height: 60px;
 }
 h1 span{
     display: block;
 }
+p
