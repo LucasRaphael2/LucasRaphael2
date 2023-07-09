@@ -6,7 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(15, 15, 15);
+    
 }
 body{
     width: 100vw;
@@ -15,11 +15,13 @@ body{
     /*font-family: "MiddleSaxonyText"; Fonte para o jogo medieval ou blocado com tematica antiga, será alterada*/
     font-family: 'Roboto Mono', monospace;
     flex-direction: column;
+    background-color: rgb(15, 15, 15);
 }
 main{
     width: 100vw;
     height: 100vh;
     display: flex;
+
 }
 div{
     display: flex;
@@ -28,7 +30,10 @@ div{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: aqua;
+    background-image: url(/assets/img/programmer-not-css1.svg);
+    background-position: center;
+    background-size: 85%;
+
 }
 h1{
     align-self: flex-start;
@@ -38,10 +43,14 @@ h1{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 10px;
+    background-color: none;
+    color: red;
 }
 h1 span{
     text-indent: 25px;
     display: block;
+    color: blue;
 }
 p{
     align-self: flex-start;
@@ -53,6 +62,9 @@ p{
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 10px;
+    background-color: none;
+    color: aqua;
     
 }
 footer{
